@@ -1,0 +1,31 @@
+﻿body {
+ background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)),url(b2.jpg);
+ background-position:center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ animation-name: example;
+ animation-duration: 20s;
+ animation-iteration-count: infinite;
+ animation-timing-function: ease;
+}
+.login-box{
+ max-width:700px;
+ float:none;
+ margin:150px auto;	
+}
+
+@keyframes example {
+   0%   {background: url(b2.jpg);}
+  25%  {background: url(bi.jpg);}
+  50%  {background: url(b3.jpg);}
+  100% {background: url(b4.jpg);}
+  
+}
+#mess {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+   
+}
